@@ -1,0 +1,28 @@
+/* NAVBAR STYLE */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #d1b89c;
+  padding: 20px;
+}
+
+.logo {
+  width: 115px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 60px;
+  color: #000000;
+  flex: 1;
+  text-align: center;
+}
+
+.title span {
+  color: #ffffff;
+}
+
+.hidden {
+  opacity: 0;
+}
