@@ -1,3 +1,9 @@
+/* COMMON STYLES */
+
+body {
+  font-family: "inter", sans-serif;
+}
+
 /* NAVBAR STYLE */
 
 .header {
@@ -46,4 +52,12 @@
 
 .menu li a:hover {
   color: #d1b89c;
+}
+
+/* LAYOUT STYLE */
+
+.layout {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 44px 60px;
 }
