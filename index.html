@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./common.css" />
     <link rel="stylesheet" href="./home.css" />
+    <link rel="stylesheet" href="./carousel.css" />
     <title>Art Martial</title>
   </head>
   <body>
@@ -23,8 +24,8 @@
       <nav class="navbar">
         <ul class="menu">
           <li><a href="./index.html">Accueil</a></li>
-          <li><a href="./cours.html">Cours</a></li>
-          <li><a href="./tarifs.html">Tarifs</a></li>
+          <li><a href="./cours.html">Galerie</a></li>
+          <li><a href="./tarifs.html">Artistes</a></li>
           <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -32,7 +33,7 @@
 
     <main class="layout">
       <section class="welcome-section">
-        <img src="./assets/images/home-image.jpg" alt="" />
+        <img src="./assets/images/home-image.jpg" alt="" class="home-img" />
 
         <p class="welcome-text">
           Bienvenue dans la galerie d'Art Martial.<br /><br />
@@ -49,6 +50,34 @@
           combat artistique.
         </p>
       </section>
+
+      <section class="carousel">
+        <p class="carousel-text">Coup de coeur</p>
+        <div class="carousel-track">
+          <img
+            src="./assets/images/carousel-1.jpg"
+            alt="Image 1"
+            class="carousel-img"
+          />
+          <img
+            src="./assets/images/carousel-2.jpg"
+            alt="Image 2"
+            class="carousel-img"
+          />
+          <img
+            src="./assets/images/carousel-3.jpg"
+            alt="Image 3"
+            class="carousel-img"
+          />
+        </div>
+
+        <div class="carousel-paginator">
+          <span class="dot active" data-index="0"></span>
+          <span class="dot" data-index="1"></span>
+          <span class="dot" data-index="2"></span>
+        </div>
+      </section>
     </main>
   </body>
+  <script src="./carousel.js" defer></script>
 </html>
