@@ -1,0 +1,53 @@
+.description {
+  font-size: 16px;
+  margin: 10px auto;
+  max-width: 600px;
+  color: #555;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.artists {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.artist {
+  text-align: center;
+}
+
+.artist img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.artist h3 {
+  margin: 10px 0 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.artist p {
+  font-size: 16px;
+  margin: 0;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .artists {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .artists {
+    grid-template-columns: 1fr;
+  }
+}
